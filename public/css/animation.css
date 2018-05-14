@@ -1,0 +1,7 @@
+#navBar {
+  transition: all 0.5s;
+}
+
+#navBar p:hover {
+  color: var(--blue);
+}

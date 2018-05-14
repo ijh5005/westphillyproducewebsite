@@ -1,0 +1,57 @@
+@media (max-width: 1400px) {
+
+  #homePageFruit img {
+    height: 24em;
+  }
+
+}
+
+@media (max-width: 1150px) {
+
+  #homePageFruit img {
+    height: 20em;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  #homePageRight,
+  #homePageBigTextLeft,
+  .imgSectionBlock,
+  #imgGallery,
+  .blueStrip,
+  .noneOnPhone {
+    display: none;
+  }
+
+  .displayNoneOnSmall {
+    display: none;
+  }
+
+  #homePageLeft {
+    width: 100%;
+  }
+
+  .backgroundImg img {
+    height: 60%;
+  }
+
+  .paddingAround {
+    padding: 0;
+  }
+
+  #homePage {
+    height: 40vh;
+  }
+
+  .textSectionBlock {
+    width: 42em;
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+}
