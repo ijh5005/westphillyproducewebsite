@@ -9,4 +9,8 @@ router.get('/epk', (req, res) => {
   // res.redirect('http://westphillieproduce.com/');
 });
 
+router.get('/communitysolutions', (req, res, next) => {
+  res.sendFile(path.join(__dirname + "/../public" + '/communitysolutions/index.html'));
+});
+
 module.exports = router;

@@ -1,0 +1,98 @@
+:root {
+  --orange: #F7987E;
+  --greyLight: #F7F7F7;
+  --greyMedium: #B3B3B3;
+  --greyDark: #969696;
+  --blue: #40B3E8;
+}
+
+/* general */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* container */
+#container {
+  height: 100vh;
+  width: 60em;
+  margin: 0 auto;
+}
+
+.subHeading {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.heading {
+  font-size: 6em;
+  color: #777777;
+  margin: 3rem auto;
+  text-align: center;
+  width: 10em;
+  font-weight: 100;
+}
+
+i.smallIcon {
+    margin: 0.4em;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+p.smallTitle {
+  color: var(--greyDark);
+  font-weight: 900;
+}
+
+.smallCircle {
+  height: 10em;
+  width: 10em;
+  border: 0.01em solid #007ab3;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0 1em;
+}
+
+.section {
+  margin: 6em 0;
+  justify-content: space-between;
+}
+
+.title {
+  color: #007ab3;
+  font-weight: 300;
+}
+
+.title p {
+  font-size: 3em;
+  font-weight: 300;
+  margin: 0;
+}
+
+.body {
+  color: var(--greyDark);
+  width: 42em;
+}
+
+.body p {
+  color: #3c3c3c;
+  font-size: 1.4em;
+  margin: 0;
+  font-weight: 200;
+  margin-bottom: 1em;
+}
+
+i {
+  color: #3c3c3c;
+  font-size: 14em;
+  opacity: 0.2;
+}
+
+#lastP {
+  width: 100%;
+}
+
+#blue,
+.blue {
+  color: #007ab3;
+  font-weight: 300;
+}
